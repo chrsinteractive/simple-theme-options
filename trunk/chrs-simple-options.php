@@ -3,9 +3,9 @@
 Plugin Name:	Simple Theme Options
 Plugin URI:		http://wordpress.org/plugins/simple-theme-options/
 Description:	With Simple Theme Options plugin your can easily manage your custom theme options such as your social media links. You also have the option to add misc code to the header.php and footer.php files, including your analytics code.
-Version:		1.4
+Version:		1.6
 Author:			Artin Hovhanesian
-Author URI:		http://www.chrsinteractive.com/
+Author URI:		https://www.chrsinteractive.com/
 Text Domain: 	chrssto
 License:		GPLv2 or later
 */
@@ -31,8 +31,8 @@ if ( basename( $_SERVER['PHP_SELF'] ) == basename( __FILE__ ) ) {
 	die( 'Sorry, but you cannot access this page directly.' );
 }
 
-define( 'CHRSOP_VERSION', '1.4' );
-define( 'CHRSOP_REQUIRED_WP_VERSION', '4.6.1' );
+define( 'CHRSOP_VERSION', '1.6' );
+define( 'CHRSOP_REQUIRED_WP_VERSION', '4.0.0' );
 define( 'CHRSOP_PLUGIN_URL', plugin_dir_url( __FILE__ ));
 define( 'CHRSOP_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
@@ -89,8 +89,8 @@ function chrs_add_header()
 
 function chrs_add_footer()
 {
-    $themeOptions = get_option( 'chrs_theme_options' );
-    echo $themeOptions['customCodeFooter'];
+	$themeOptions = get_option( 'chrs_theme_options' );
+	echo $themeOptions['customCodeFooter'];
 }
 
 function chrs_theme_options_icon() {
