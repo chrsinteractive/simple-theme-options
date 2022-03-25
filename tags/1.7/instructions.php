@@ -1,13 +1,13 @@
-<div class="chrssto-instructions">
-	<h3>Social Links Usage Instructions</h3>
+<div class="chrs-settings-block">
+	<h3>Usage Instructions</h3>
 	<p>Use any of the following "Template Codes" within your template files (for example: header.php).</p>
 	<p>Use any of the following "Shortcodes" within the content editor or any of your existing widgets.</p>
-	<table class="chrs-global-instructions">
+	<table width="100%" cellpadding="5" class="chrs-global-instructions">
 		<thead>
 			<tr>
-				<th>&nbsp;</th>
-				<th>Template Code</th>
-				<th>Shortcode</th>
+				<th width="10%">&nbsp;</th>
+				<td width="50%">Template Code</td>
+				<td width="40%">Shortcode</td>
 			</tr>
 		</thead>
 		<tbody>

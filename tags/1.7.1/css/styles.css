@@ -1,0 +1,12 @@
+.chrs-input-global-fields label,
+.chrs-input-social-fields label {font-size:11px;font-style:italic;margin-bottom:3px;}
+.chrs-input-global-fields textarea,
+.chrs-input-social-fields input {width:98%;font-size:12px;}
+
+.chrs-settings-block {width:98%;}
+.chrs-settings-block h3 { padding: 10px; font-weight: normal !important; letter-spacing: 1px; font-size: 18px;background:#0074A2;color:#fff !important }
+.chrs-settings-block th { width:150px;text-align:left;}
+
+.chrs-global-instructions span {display:inline-block;font-size:11px;padding:5px 10px;background:#eaeaea;}
+
+
